@@ -1,0 +1,9 @@
+.card-grid{
+	width: 700px;
+	margin : 0 auto;
+	display: flex;
+	flex-wrap : wrap;
+	flex-basis: 150px;
+	flex-grow: 1;
+	justify-content: space-around;
+}

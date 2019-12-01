@@ -1,0 +1,18 @@
+.card-white{
+	width: 300px;
+	padding:20px;
+	display: flex;
+	align-items:center;
+	box-shadow: 10px 10px 8px rgba(128,128,128,0.3);
+	justify-content:space-around;
+	margin:30px 0px;
+	border-radius: 5px;
+}
+
+.card-white p {
+	margin-left : 40px
+}
+
+.card-white img {
+	width: 100px
+}

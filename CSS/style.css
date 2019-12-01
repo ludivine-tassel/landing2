@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
+
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/card-grid.css");
+@import url("components/card.css");
+
+body{
+font-size: 15px;
+font-family: 'Raleway', sans-serif;
+margin : 0px;
+}
+
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #006400;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container, .card-grid {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container, .card-grid {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container, .card-grid {
+    width: 300px;
+  }
+}
